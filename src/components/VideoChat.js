@@ -4,7 +4,7 @@ import SimplePeer from 'simple-peer';
 import ChatBox from './ChatBox';
 import Controls from './Controls';
 
-const SOCKET_SERVER = 'http://localhost:3001';
+const SOCKET_SERVER = 'https://videochat-backend-7uro.onrender.com';
 
 function VideoChat() {
   const [status, setStatus] = useState('idle');
